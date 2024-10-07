@@ -9,5 +9,3 @@ def format_header(header_file, output_file):
     with open(output_file, "w", encoding="utf-8", newline="") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(header)
-
-

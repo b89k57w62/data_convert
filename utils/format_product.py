@@ -2,7 +2,7 @@ import csv
 from datetime import datetime
 
 
-def format_data(input_file, output_file):
+def format_product(input_file, output_file):
     with open(input_file, "r", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         data = list(reader)
@@ -86,5 +86,3 @@ def format_data(input_file, output_file):
 
             internal_id_counter += 1
             sku_counter += 1
-
-
