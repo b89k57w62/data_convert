@@ -2,9 +2,9 @@ from utils.format_header import format_header
 from utils.format_data import format_data
 
 def main():
-    input_file = 'your_input_file.csv'
-    header_file = 'your_header_file.csv' 
-    output_file = 'your_output_file.csv'
+    input_file = '/Users/wuhaosheng/dev/data_convert/data/raw_data.csv'
+    header_file = '/Users/wuhaosheng/dev/data_convert/data/formal_data.csv' 
+    output_file = '/Users/wuhaosheng/dev/data_convert/data/output.csv'
     format_header(header_file, output_file)
 
     format_data(input_file, output_file)

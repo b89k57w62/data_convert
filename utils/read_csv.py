@@ -11,6 +11,3 @@ class CSVReader:
             print(f"first_row: {first_row}")
 
 
-if __name__ == "__main__":
-    csv_reader = CSVReader()
-    csv_reader.read_csv("/Users/wuhaosheng/dev/data_convert/data/formal_data.csv")
