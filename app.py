@@ -4,9 +4,9 @@ from utils.format_cust import format_cust
 
 
 def main():
-    input_file = "your_input_file.csv"
-    header_file = None # chose one of formal_cust_formatted.csv or formal_product_formatted.csv
-    output_file = "your_output_file.csv"
+    input_file = "/Users/wuhaosheng/dev/data_convert/data/raw_product.csv"
+    header_file = "/Users/wuhaosheng/dev/data_convert/data/formal_product.csv"
+    output_file = "/Users/wuhaosheng/dev/data_convert/data/output_product.csv"
     format_header(header_file, output_file)
     if input_file.endswith("raw_product.csv"):
         format_product(input_file, output_file)
